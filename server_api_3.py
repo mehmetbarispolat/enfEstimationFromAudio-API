@@ -4,9 +4,9 @@ import os
 from pytube import YouTube, Stream
 import logging
 
-UPLOAD_FOLDER = '/home/mehmetbarispolat2/stajprojesi/static/enfEstimationFromAudio_docker/testVideo'
-IMAGE_FOLDER = '/home/mehmetbarispolat2/stajprojesi/static/enfEstimationFromAudio_docker/output'
-CMD = 'docker run -v /home/mehmetbarispolat2/stajprojesi/static/enfEstimationFromAudio_docker:/codeDir -v /home/mehmetbarispolat2/stajprojesi/static/enfEstimationFromAudio_docker:/testDir estimate-enf-from-audio-content /codeDir/testScript.sh'
+UPLOAD_FOLDER = '/home/baris/Projects/stajprojesiGit/static/enfEstimationFromAudio_docker/testVideo'
+IMAGE_FOLDER = '/home/baris/Projects/stajprojesiGit/static/enfEstimationFromAudio_docker/output'
+CMD = 'docker run -v /home/baris/Projects/stajprojesiGit/static/enfEstimationFromAudio_docker:/codeDir -v /home/baris/Projects/stajprojesiGit/static/enfEstimationFromAudio_docker:/testDir estimate-enf-from-audio-content /codeDir/testScript.sh'
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
