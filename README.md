@@ -1,4 +1,5 @@
 # enfEstimationFromAudio-API
-Python Flask kullanılarak ENF çıktılarının web site üzerinden gösterilmesi.
+
+Displaying ENF signals on Web page by using Flask Framework in Python.
 
 Denemek için www.enfcalculator.tk
